@@ -10,18 +10,14 @@
 
 \mode<presentation>
 {
-  \usetheme{Warsaw}
-  % or ...
-
-  \setbeamercovered{transparent}
-  % or whatever (possibly just delete it)
+  \usetheme{EastLansing}
 }
 
 
 \usepackage[english]{babel}
 % or whatever
 
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 % or whatever
 
 \usepackage[T1]{fontenc}
@@ -85,7 +81,6 @@
 
 %\beamerdefaultoverlayspecification{<+->}
 
-
 \begin{document}
 
 \begin{frame}
@@ -115,7 +110,7 @@
 \begin{frame}{Make Titles Informative. Use Uppercase Letters.}{Subtitles are optional.}
   % - A title should summarize the slide in an understandable fashion
   %   for anyone how does not follow everything on the slide itself.
-
+  Citation test \cite{lalonde2017}
   \begin{itemize}
   \item
     Use \texttt{itemize} a lot.
@@ -194,5 +189,9 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}{Bibliography}
+  \bibliographystyle{IEEEtran}
+  \bibliography{bibliography}
+\end{frame}
 
 \end{document}
